@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BB074FF182AF08200B4BBB0 /* TitleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB074FE182AF08200B4BBB0 /* TitleScreen.m */; };
+		8BD6C11B182B17E900DB9BE0 /* Moon_Veil_-_06_-_Ivory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6C11A182B17E800DB9BE0 /* Moon_Veil_-_06_-_Ivory.mp3 */; };
+		8BE98ABD18202C43000F7D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE98ABC18202C43000F7D40 /* Foundation.framework */; };
+		8BE98ABF18202C43000F7D40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE98ABE18202C43000F7D40 /* CoreGraphics.framework */; };
+		8BE98AC118202C43000F7D40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE98AC018202C43000F7D40 /* UIKit.framework */; };
+		8BE98AC318202C43000F7D40 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE98AC218202C43000F7D40 /* SpriteKit.framework */; };
+		8BE98AC918202C43000F7D40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AC718202C43000F7D40 /* InfoPlist.strings */; };
+		8BE98ACB18202C43000F7D40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE98ACA18202C43000F7D40 /* main.m */; };
+		8BE98ACF18202C43000F7D40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE98ACE18202C43000F7D40 /* AppDelegate.m */; };
+		8BE98AD218202C43000F7D40 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AD018202C43000F7D40 /* Main_iPhone.storyboard */; };
+		8BE98AD518202C43000F7D40 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AD318202C43000F7D40 /* Main_iPad.storyboard */; };
+		8BE98AD818202C43000F7D40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE98AD718202C43000F7D40 /* ViewController.m */; };
+		8BE98ADB18202C43000F7D40 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE98ADA18202C43000F7D40 /* MyScene.m */; };
+		8BE98ADF18202C43000F7D40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98ADE18202C43000F7D40 /* Images.xcassets */; };
+		8BE98AE618202C43000F7D40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE98AE518202C43000F7D40 /* XCTest.framework */; };
+		8BE98AE718202C43000F7D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE98ABC18202C43000F7D40 /* Foundation.framework */; };
+		8BE98AE818202C43000F7D40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE98AC018202C43000F7D40 /* UIKit.framework */; };
+		8BE98AF018202C43000F7D40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AEE18202C43000F7D40 /* InfoPlist.strings */; };
+		8BE98AF218202C43000F7D40 /* ThreeOfACrimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE98AF118202C43000F7D40 /* ThreeOfACrimeTests.m */; };
+		8BE98B02182030EB000F7D40 /* Suspect1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AFB182030EB000F7D40 /* Suspect1.png */; };
+		8BE98B03182030EB000F7D40 /* Suspect2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AFC182030EB000F7D40 /* Suspect2.png */; };
+		8BE98B04182030EB000F7D40 /* Suspect3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AFD182030EB000F7D40 /* Suspect3.png */; };
+		8BE98B05182030EB000F7D40 /* Suspect4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AFE182030EB000F7D40 /* Suspect4.png */; };
+		8BE98B06182030EB000F7D40 /* Suspect5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98AFF182030EB000F7D40 /* Suspect5.png */; };
+		8BE98B07182030EB000F7D40 /* Suspect6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98B00182030EB000F7D40 /* Suspect6.png */; };
+		8BE98B08182030EB000F7D40 /* Suspect7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98B01182030EB000F7D40 /* Suspect7.png */; };
+		8BE98B0A182046FA000F7D40 /* passbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BE98B09182046FA000F7D40 /* passbutton.png */; };
+		8BFD37951829B9E800E069C9 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD37941829B9E800E069C9 /* Game.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BE98AE918202C43000F7D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BE98AB118202C43000F7D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BE98AB818202C43000F7D40;
+			remoteInfo = ThreeOfACrime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BB074FD182AF08200B4BBB0 /* TitleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScreen.h; sourceTree = "<group>"; };
+		8BB074FE182AF08200B4BBB0 /* TitleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScreen.m; sourceTree = "<group>"; };
+		8BD6C11A182B17E800DB9BE0 /* Moon_Veil_-_06_-_Ivory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moon_Veil_-_06_-_Ivory.mp3"; sourceTree = "<group>"; };
+		8BE98AB918202C43000F7D40 /* ThreeOfACrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeOfACrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE98ABC18202C43000F7D40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BE98ABE18202C43000F7D40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BE98AC018202C43000F7D40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BE98AC218202C43000F7D40 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8BE98AC618202C43000F7D40 /* ThreeOfACrime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeOfACrime-Info.plist"; sourceTree = "<group>"; };
+		8BE98AC818202C43000F7D40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BE98ACA18202C43000F7D40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BE98ACC18202C43000F7D40 /* ThreeOfACrime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeOfACrime-Prefix.pch"; sourceTree = "<group>"; };
+		8BE98ACD18202C43000F7D40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BE98ACE18202C43000F7D40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BE98AD118202C43000F7D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8BE98AD418202C43000F7D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8BE98AD618202C43000F7D40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BE98AD718202C43000F7D40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BE98AD918202C43000F7D40 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		8BE98ADA18202C43000F7D40 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		8BE98ADE18202C43000F7D40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BE98AE418202C43000F7D40 /* ThreeOfACrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeOfACrimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE98AE518202C43000F7D40 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BE98AED18202C43000F7D40 /* ThreeOfACrimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeOfACrimeTests-Info.plist"; sourceTree = "<group>"; };
+		8BE98AEF18202C43000F7D40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BE98AF118202C43000F7D40 /* ThreeOfACrimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeOfACrimeTests.m; sourceTree = "<group>"; };
+		8BE98AFB182030EB000F7D40 /* Suspect1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suspect1.png; sourceTree = "<group>"; };
+		8BE98AFC182030EB000F7D40 /* Suspect2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suspect2.png; sourceTree = "<group>"; };
+		8BE98AFD182030EB000F7D40 /* Suspect3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suspect3.png; sourceTree = "<group>"; };
+		8BE98AFE182030EB000F7D40 /* Suspect4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suspect4.png; sourceTree = "<group>"; };
+		8BE98AFF182030EB000F7D40 /* Suspect5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suspect5.png; sourceTree = "<group>"; };
+		8BE98B00182030EB000F7D40 /* Suspect6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suspect6.png; sourceTree = "<group>"; };
+		8BE98B01182030EB000F7D40 /* Suspect7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Suspect7.png; sourceTree = "<group>"; };
+		8BE98B09182046FA000F7D40 /* passbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passbutton.png; sourceTree = "<group>"; };
+		8BFD37931829B9E800E069C9 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		8BFD37941829B9E800E069C9 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BE98AB618202C43000F7D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE98ABF18202C43000F7D40 /* CoreGraphics.framework in Frameworks */,
+				8BE98AC118202C43000F7D40 /* UIKit.framework in Frameworks */,
+				8BE98AC318202C43000F7D40 /* SpriteKit.framework in Frameworks */,
+				8BE98ABD18202C43000F7D40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE98AE118202C43000F7D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE98AE618202C43000F7D40 /* XCTest.framework in Frameworks */,
+				8BE98AE818202C43000F7D40 /* UIKit.framework in Frameworks */,
+				8BE98AE718202C43000F7D40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BE98AB018202C43000F7D40 = {
+			isa = PBXGroup;
+			children = (
+				8BE98AC418202C43000F7D40 /* ThreeOfACrime */,
+				8BE98AEB18202C43000F7D40 /* ThreeOfACrimeTests */,
+				8BE98ABB18202C43000F7D40 /* Frameworks */,
+				8BE98ABA18202C43000F7D40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BE98ABA18202C43000F7D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BE98AB918202C43000F7D40 /* ThreeOfACrime.app */,
+				8BE98AE418202C43000F7D40 /* ThreeOfACrimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BE98ABB18202C43000F7D40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BE98ABC18202C43000F7D40 /* Foundation.framework */,
+				8BE98ABE18202C43000F7D40 /* CoreGraphics.framework */,
+				8BE98AC018202C43000F7D40 /* UIKit.framework */,
+				8BE98AC218202C43000F7D40 /* SpriteKit.framework */,
+				8BE98AE518202C43000F7D40 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BE98AC418202C43000F7D40 /* ThreeOfACrime */ = {
+			isa = PBXGroup;
+			children = (
+				8BE98ACD18202C43000F7D40 /* AppDelegate.h */,
+				8BE98ACE18202C43000F7D40 /* AppDelegate.m */,
+				8BE98AD018202C43000F7D40 /* Main_iPhone.storyboard */,
+				8BE98AD318202C43000F7D40 /* Main_iPad.storyboard */,
+				8BE98AD618202C43000F7D40 /* ViewController.h */,
+				8BE98AD718202C43000F7D40 /* ViewController.m */,
+				8BB074FD182AF08200B4BBB0 /* TitleScreen.h */,
+				8BB074FE182AF08200B4BBB0 /* TitleScreen.m */,
+				8BE98AD918202C43000F7D40 /* MyScene.h */,
+				8BE98ADA18202C43000F7D40 /* MyScene.m */,
+				8BFD37931829B9E800E069C9 /* Game.h */,
+				8BFD37941829B9E800E069C9 /* Game.m */,
+				8BD6C11A182B17E800DB9BE0 /* Moon_Veil_-_06_-_Ivory.mp3 */,
+				8BE98AFB182030EB000F7D40 /* Suspect1.png */,
+				8BE98AFC182030EB000F7D40 /* Suspect2.png */,
+				8BE98AFD182030EB000F7D40 /* Suspect3.png */,
+				8BE98AFE182030EB000F7D40 /* Suspect4.png */,
+				8BE98AFF182030EB000F7D40 /* Suspect5.png */,
+				8BE98B00182030EB000F7D40 /* Suspect6.png */,
+				8BE98B01182030EB000F7D40 /* Suspect7.png */,
+				8BE98B09182046FA000F7D40 /* passbutton.png */,
+				8BE98ADE18202C43000F7D40 /* Images.xcassets */,
+				8BE98AC518202C43000F7D40 /* Supporting Files */,
+			);
+			path = ThreeOfACrime;
+			sourceTree = "<group>";
+		};
+		8BE98AC518202C43000F7D40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE98AC618202C43000F7D40 /* ThreeOfACrime-Info.plist */,
+				8BE98AC718202C43000F7D40 /* InfoPlist.strings */,
+				8BE98ACA18202C43000F7D40 /* main.m */,
+				8BE98ACC18202C43000F7D40 /* ThreeOfACrime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BE98AEB18202C43000F7D40 /* ThreeOfACrimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BE98AF118202C43000F7D40 /* ThreeOfACrimeTests.m */,
+				8BE98AEC18202C43000F7D40 /* Supporting Files */,
+			);
+			path = ThreeOfACrimeTests;
+			sourceTree = "<group>";
+		};
+		8BE98AEC18202C43000F7D40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE98AED18202C43000F7D40 /* ThreeOfACrimeTests-Info.plist */,
+				8BE98AEE18202C43000F7D40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BE98AB818202C43000F7D40 /* ThreeOfACrime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE98AF518202C43000F7D40 /* Build configuration list for PBXNativeTarget "ThreeOfACrime" */;
+			buildPhases = (
+				8BE98AB518202C43000F7D40 /* Sources */,
+				8BE98AB618202C43000F7D40 /* Frameworks */,
+				8BE98AB718202C43000F7D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeOfACrime;
+			productName = ThreeOfACrime;
+			productReference = 8BE98AB918202C43000F7D40 /* ThreeOfACrime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BE98AE318202C43000F7D40 /* ThreeOfACrimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE98AF818202C43000F7D40 /* Build configuration list for PBXNativeTarget "ThreeOfACrimeTests" */;
+			buildPhases = (
+				8BE98AE018202C43000F7D40 /* Sources */,
+				8BE98AE118202C43000F7D40 /* Frameworks */,
+				8BE98AE218202C43000F7D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BE98AEA18202C43000F7D40 /* PBXTargetDependency */,
+			);
+			name = ThreeOfACrimeTests;
+			productName = ThreeOfACrimeTests;
+			productReference = 8BE98AE418202C43000F7D40 /* ThreeOfACrimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BE98AB118202C43000F7D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Robert Payne";
+				TargetAttributes = {
+					8BE98AB818202C43000F7D40 = {
+						DevelopmentTeam = V433M2TJB5;
+					};
+					8BE98AE318202C43000F7D40 = {
+						TestTargetID = 8BE98AB818202C43000F7D40;
+					};
+				};
+			};
+			buildConfigurationList = 8BE98AB418202C43000F7D40 /* Build configuration list for PBXProject "ThreeOfACrime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BE98AB018202C43000F7D40;
+			productRefGroup = 8BE98ABA18202C43000F7D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BE98AB818202C43000F7D40 /* ThreeOfACrime */,
+				8BE98AE318202C43000F7D40 /* ThreeOfACrimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BE98AB718202C43000F7D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE98B0A182046FA000F7D40 /* passbutton.png in Resources */,
+				8BE98B04182030EB000F7D40 /* Suspect3.png in Resources */,
+				8BD6C11B182B17E900DB9BE0 /* Moon_Veil_-_06_-_Ivory.mp3 in Resources */,
+				8BE98ADF18202C43000F7D40 /* Images.xcassets in Resources */,
+				8BE98AD518202C43000F7D40 /* Main_iPad.storyboard in Resources */,
+				8BE98AD218202C43000F7D40 /* Main_iPhone.storyboard in Resources */,
+				8BE98B08182030EB000F7D40 /* Suspect7.png in Resources */,
+				8BE98B05182030EB000F7D40 /* Suspect4.png in Resources */,
+				8BE98B07182030EB000F7D40 /* Suspect6.png in Resources */,
+				8BE98B03182030EB000F7D40 /* Suspect2.png in Resources */,
+				8BE98B06182030EB000F7D40 /* Suspect5.png in Resources */,
+				8BE98AC918202C43000F7D40 /* InfoPlist.strings in Resources */,
+				8BE98B02182030EB000F7D40 /* Suspect1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE98AE218202C43000F7D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE98AF018202C43000F7D40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BE98AB518202C43000F7D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB074FF182AF08200B4BBB0 /* TitleScreen.m in Sources */,
+				8BFD37951829B9E800E069C9 /* Game.m in Sources */,
+				8BE98ADB18202C43000F7D40 /* MyScene.m in Sources */,
+				8BE98AD818202C43000F7D40 /* ViewController.m in Sources */,
+				8BE98ACF18202C43000F7D40 /* AppDelegate.m in Sources */,
+				8BE98ACB18202C43000F7D40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE98AE018202C43000F7D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE98AF218202C43000F7D40 /* ThreeOfACrimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BE98AEA18202C43000F7D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BE98AB818202C43000F7D40 /* ThreeOfACrime */;
+			targetProxy = 8BE98AE918202C43000F7D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BE98AC718202C43000F7D40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE98AC818202C43000F7D40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BE98AD018202C43000F7D40 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE98AD118202C43000F7D40 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8BE98AD318202C43000F7D40 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE98AD418202C43000F7D40 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8BE98AEE18202C43000F7D40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE98AEF18202C43000F7D40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BE98AF318202C43000F7D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BE98AF418202C43000F7D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BE98AF618202C43000F7D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeOfACrime/ThreeOfACrime-Prefix.pch";
+				INFOPLIST_FILE = "ThreeOfACrime/ThreeOfACrime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BE98AF718202C43000F7D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeOfACrime/ThreeOfACrime-Prefix.pch";
+				INFOPLIST_FILE = "ThreeOfACrime/ThreeOfACrime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BE98AF918202C43000F7D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeOfACrime.app/ThreeOfACrime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeOfACrime/ThreeOfACrime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThreeOfACrimeTests/ThreeOfACrimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8BE98AFA18202C43000F7D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeOfACrime.app/ThreeOfACrime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeOfACrime/ThreeOfACrime-Prefix.pch";
+				INFOPLIST_FILE = "ThreeOfACrimeTests/ThreeOfACrimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BE98AB418202C43000F7D40 /* Build configuration list for PBXProject "ThreeOfACrime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE98AF318202C43000F7D40 /* Debug */,
+				8BE98AF418202C43000F7D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE98AF518202C43000F7D40 /* Build configuration list for PBXNativeTarget "ThreeOfACrime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE98AF618202C43000F7D40 /* Debug */,
+				8BE98AF718202C43000F7D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE98AF818202C43000F7D40 /* Build configuration list for PBXNativeTarget "ThreeOfACrimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE98AF918202C43000F7D40 /* Debug */,
+				8BE98AFA18202C43000F7D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BE98AB118202C43000F7D40 /* Project object */;
+}
